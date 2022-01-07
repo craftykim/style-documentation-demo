@@ -7,7 +7,7 @@ const PaletteBlock = ({ children, color, textColor }) => (
       borderRadius: '2px',
       color: textColor,
       padding: '1rem',
-			marginBottom: '1rem'
+			marginBottom: '0.25rem'
     }}>
     {children}
   </div>
