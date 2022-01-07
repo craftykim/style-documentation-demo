@@ -12,9 +12,9 @@ const config = {
   baseUrl: '/style-documentation-demo/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/new-zenbusiness-icon.ico',
+  organizationName: 'craftykim', // Usually your GitHub org/user name.
+  projectName: 'style-documentation-demo', // Usually your repo name.
 
   presets: [
     [
@@ -25,7 +25,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/craftykim/style-documentation-demo',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -40,12 +40,12 @@ const config = {
       navbar: {
         title: 'Style Documentation',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/zb_bug_2022.svg',
+          alt: 'Site Logo',
+          src: 'img/circle-logo-teal.svg',
         },
         items: [
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/craftykim/style-documentation-demo',
             label: 'GitHub',
             position: 'right',
           },
