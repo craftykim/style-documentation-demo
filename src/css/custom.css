@@ -12,13 +12,13 @@
 :root {
   /* Infima variables */
   --ifm-background-color: var(--color-core-focus-0);
-  --ifm-color-primary: var(--color-core-peace-300);
-  --ifm-color-primary-dark: var(--color-core-peace-400);
-  --ifm-color-primary-darker: var(--color-core-peace-400);
-  --ifm-color-primary-darkest: var(--color-core-peace-500);
-  --ifm-color-primary-light: var(--color-core-peace-200);
-  --ifm-color-primary-lighter: var(--color-core-peace-200);
-  --ifm-color-primary-lightest: var(--color-core-peace-100);
+  --ifm-color-primary: var(--color-core-peace-30);
+  --ifm-color-primary-dark: var(--color-core-peace-40);
+  --ifm-color-primary-darker: var(--color-core-peace-40);
+  --ifm-color-primary-darkest: var(--color-core-peace-50);
+  --ifm-color-primary-light: var(--color-core-peace-20);
+  --ifm-color-primary-lighter: var(--color-core-peace-20);
+  --ifm-color-primary-lightest: var(--color-core-peace-10);
   --ifm-code-font-size: 95%;
   --ifm-heading-font-family: var(--fonts-heading-m-font-family);
 }
@@ -35,8 +35,8 @@ p, a {
 }
 
 html[data-theme='dark'] {
-  --ifm-background-color: var(--color-core-focus-dark-100);
-  --ifm-background-surface-color: var(--color-core-focus-dark-200);
+  --ifm-background-color: var(--color-core-focus-dark-10);
+  --ifm-background-surface-color: var(--color-core-focus-dark-20);
 
   /* Dark mode variables */
   --color-background-primary: #000000;
@@ -60,7 +60,7 @@ article .container {
 }
 
 .footer--dark {
-  --ifm-footer-background-color: var(--color-core-focus-700);
+  --ifm-footer-background-color: var(--color-core-focus-70);
 }
 
 .styled-link {
