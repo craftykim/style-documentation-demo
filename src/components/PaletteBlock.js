@@ -11,9 +11,9 @@ const StyledPaletteBlock = styled.div`
 
 const PaletteBlock = ({ children, color, textColor }) => {
   return (
-  <StyledPaletteBlock color={color} textColor={textColor}>
-    {children}
-  </StyledPaletteBlock>
+    <StyledPaletteBlock color={color} textColor={textColor}>
+      {children}
+    </StyledPaletteBlock>
   );
 }
 
